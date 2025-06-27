@@ -1,0 +1,118 @@
+[0m15:56:53.707398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002848C5B2510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002848A5A8A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002848D7839D0>]}
+
+
+============================== 15:56:53.712688 | 7e9432ad-cb8a-4db9-9411-956e8ff4b0e9 ==============================
+[0m15:56:53.712688 [info ] [MainThread]: Running with dbt=1.10.1
+[0m15:56:53.713277 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\gabif\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:56:53.734549 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\gabif\.dbt
+[0m15:57:12.173995 [debug] [MainThread]: Starter project path: C:\Users\gabif\Documents\GitHub\g2_dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:57:12.199096 [info ] [MainThread]: 
+Your new dbt project "G2_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:57:12.199708 [info ] [MainThread]: Setting up your profile.
+[0m16:00:00.764378 [info ] [MainThread]: Profile G2_dbt written to C:\Users\gabif\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m16:00:00.765545 [debug] [MainThread]: Command `dbt init` succeeded at 16:00:00.765419 after 187.17 seconds
+[0m16:00:00.765829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002848D812EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002848E9D0290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002848D7EF790>]}
+[0m16:00:00.766131 [debug] [MainThread]: Flushing usage events
+[0m16:00:02.735183 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:00:14.348235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD30C3A510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD2EC38A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD31E039D0>]}
+
+
+============================== 16:00:14.352244 | 5a57e057-1346-479d-b015-310f9055a342 ==============================
+[0m16:00:14.352244 [info ] [MainThread]: Running with dbt=1.10.1
+[0m16:00:14.352863 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\gabif\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:00:24.812341 [debug] [MainThread]: Starter project path: C:\Users\gabif\Documents\GitHub\g2_dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:00:24.823947 [info ] [MainThread]: 
+Your new dbt project "nyc_parking_violations" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:00:24.824493 [info ] [MainThread]: Setting up your profile.
+[0m16:00:27.976704 [debug] [MainThread]: Command `dbt init` succeeded at 16:00:27.976533 after 13.79 seconds
+[0m16:00:27.977052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD31E91220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD32FF0290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD31E7B790>]}
+[0m16:00:27.977368 [debug] [MainThread]: Flushing usage events
+[0m16:00:28.635302 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:04:51.617091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EA981A510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EA77FCA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EAA9B39D0>]}
+
+
+============================== 16:04:51.621086 | 6d42497e-23b9-4e29-b232-895440c89e75 ==============================
+[0m16:04:51.621086 [info ] [MainThread]: Running with dbt=1.10.1
+[0m16:04:51.621737 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\gabif\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:04:51.639839 [info ] [MainThread]: dbt version: 1.10.1
+[0m16:04:51.640322 [info ] [MainThread]: python version: 3.13.3
+[0m16:04:51.640649 [info ] [MainThread]: python path: C:\Users\gabif\Documents\GitHub\g2_dbt\.venv\Scripts\python.exe
+[0m16:04:51.640913 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m16:04:51.721894 [info ] [MainThread]: Using profiles dir at C:\Users\gabif\.dbt
+[0m16:04:51.722553 [info ] [MainThread]: Using profiles.yml file at C:\Users\gabif\.dbt\profiles.yml
+[0m16:04:51.723149 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\gabif\Documents\GitHub\g2_dbt\dbt_project.yml
+[0m16:04:51.723590 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:04:51.724431 [debug] [MainThread]: Command `dbt debug` failed at 16:04:51.724295 after 0.32 seconds
+[0m16:04:51.724732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EABBC4D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EABBAA570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EAAA1BBD0>]}
+[0m16:04:51.725138 [debug] [MainThread]: Flushing usage events
+[0m16:04:52.409545 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:06:16.811511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E433612510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E43160CA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4347E39D0>]}
+
+
+============================== 16:06:16.816082 | 028a30d6-405d-4d7f-9bce-f67835e9a267 ==============================
+[0m16:06:16.816082 [info ] [MainThread]: Running with dbt=1.10.1
+[0m16:06:16.816781 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\gabif\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m16:06:16.833581 [info ] [MainThread]: dbt version: 1.10.1
+[0m16:06:16.834302 [info ] [MainThread]: python version: 3.13.3
+[0m16:06:16.834699 [info ] [MainThread]: python path: C:\Users\gabif\Documents\GitHub\g2_dbt\.venv\Scripts\python.exe
+[0m16:06:16.835035 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m16:06:16.918965 [info ] [MainThread]: Using profiles dir at C:\Users\gabif\.dbt
+[0m16:06:16.919765 [info ] [MainThread]: Using profiles.yml file at C:\Users\gabif\.dbt\profiles.yml
+[0m16:06:16.920354 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\gabif\Documents\GitHub\g2_dbt\dbt_project.yml
+[0m16:06:16.920890 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:06:16.921841 [debug] [MainThread]: Command `dbt debug` failed at 16:06:16.921689 after 0.25 seconds
+[0m16:06:16.922227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E435A34D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E435A1A570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E43484BBD0>]}
+[0m16:06:16.922678 [debug] [MainThread]: Flushing usage events
+[0m16:06:18.636770 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:07:21.104275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCF3FF2510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCF1FECA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCF51B39D0>]}
+
+
+============================== 16:07:21.108581 | a48d7782-f658-46b0-8b50-545705a402c8 ==============================
+[0m16:07:21.108581 [info ] [MainThread]: Running with dbt=1.10.1
+[0m16:07:21.109310 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\gabif\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:07:21.126051 [info ] [MainThread]: dbt version: 1.10.1
+[0m16:07:21.126618 [info ] [MainThread]: python version: 3.13.3
+[0m16:07:21.126938 [info ] [MainThread]: python path: C:\Users\gabif\Documents\GitHub\g2_dbt\.venv\Scripts\python.exe
+[0m16:07:21.127244 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m16:07:21.208752 [info ] [MainThread]: Using profiles dir at C:\Users\gabif\.dbt
+[0m16:07:21.209621 [info ] [MainThread]: Using profiles.yml file at C:\Users\gabif\.dbt\profiles.yml
+[0m16:07:21.210135 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\gabif\Documents\GitHub\g2_dbt\dbt_project.yml
+[0m16:07:21.210690 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:07:21.211721 [debug] [MainThread]: Command `dbt debug` failed at 16:07:21.211568 after 0.25 seconds
+[0m16:07:21.212123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCF6420D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCF6406570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCF521BBD0>]}
+[0m16:07:21.212676 [debug] [MainThread]: Flushing usage events
+[0m16:07:22.931045 [debug] [MainThread]: An error was encountered while trying to flush usage events
